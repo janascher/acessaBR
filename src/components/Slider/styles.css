@@ -1,0 +1,20 @@
+:root {
+    --swiper-navigation-size: 60px;
+}
+
+.swiper-slide {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;  
+}
+
+.swiper-button-prev {
+    color: var(--darkBlue);
+    left: 0 !important;
+}
+
+.swiper-button-next {
+    color: var(--darkBlue); 
+    right: 0 !important;
+}

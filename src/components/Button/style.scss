@@ -1,0 +1,11 @@
+.button {
+    background-color: var(--darkBlue);
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: .5rem;
+    box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 75%);    
+    color: var(--white);
+    cursor: pointer;
+    font-size: 1.4rem;
+    padding: .7rem 1rem;
+}

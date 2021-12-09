@@ -1,0 +1,56 @@
+.curator {
+    &__container {
+        align-items: center;
+        background-color: var(--lightGreen);
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 6rem;
+        margin-top: 6rem;
+        width: 100%;
+    }
+
+    &__photo {
+        border-radius: 50%;
+        border: 1px solid var(--lightGray);
+        height: 85px;
+        margin: 2rem;
+        overflow: hidden;
+        width: 85px;
+    }
+
+    &__details {
+
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 4rem 0;
+        width: 60%;
+
+        div {
+            align-items: flex-end;
+            display: flex;
+            margin-bottom: 1rem;
+
+            h3 {
+                font-size: 2rem;
+                line-height: 2rem;
+                margin: 0;
+            }
+
+            h6 {
+                color: var(--darkGray);
+                font-size: 1.2rem;
+                line-height: 1.3rem;
+                margin: 0 1rem;
+            }  
+        }
+
+        p {
+            font-size: 1.5rem;
+            width: 100%;
+        }
+    }
+}

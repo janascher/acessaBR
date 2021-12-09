@@ -1,0 +1,125 @@
+{
+
+    "places": [
+        {
+            "id": 1,
+            "name": "Museu do Imigrante",
+            "image": "/places/museu-do-imigrante.png",
+            "category": "Museu",
+            "description": "Aqui a história tem vários sotaques que se unem em uma combinação de culturas.",
+            "link": "https://www.museudoimigrante.org.br/",
+            "location": {
+                "lat": "01234",
+                "long": "4321"
+            },
+            "facilities": [
+                {"item": 1, "status": true},
+                {"item": 2, "status": false},
+                {"item": 3, "status": true},
+                {"item": 4, "status": false},
+                {"item": 5, "status": true},
+                {"item": 6, "status": true},
+                {"item": 7, "status": true},
+                {"item": 8, "status": false},
+                {"item": 9, "status": true},
+                {"item": 10, "status": true}
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Passeios com Maria Fumaça",
+            "image": "/places/maria-fumaca.png",
+            "category": "Estação Ferroviária",
+            "description": "Inaugurada em 1919, a estação funcionou com trens de passageiros até 1976.",
+            "link": "https://www.giordaniturismo.com.br/grupo/passeioscommariafumaca",
+            "location": {
+                "lat": "01234",
+                "long": "4321"
+            },
+            "facilities": [
+                {"item": 1, "status": true},
+                {"item": 2, "status": false},
+                {"item": 3, "status": false},
+                {"item": 4, "status": false},
+                {"item": 5, "status": true},
+                {"item": 6, "status": true},
+                {"item": 7, "status": false},
+                {"item": 8, "status": false},
+                {"item": 9, "status": false},
+                {"item": 10, "status": true}
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Cooperativa Vinícula Aurora",
+            "image": "/places/vinicula-aurora.png",
+            "category": "Vinícula",
+            "description": "Fundada em 1931 por 16 produtores de uvas, tornou-se a maior Cooperativa Vinícola do Brasil.",
+            "link": "https://www.vinicolaaurora.com.br/br",
+            "location": {
+                "lat": "01234",
+                "long": "4321"
+            },
+            "facilities": [
+                {"item": 1, "status": false},
+                {"item": 2, "status": false},
+                {"item": 3, "status": true},
+                {"item": 4, "status": true},
+                {"item": 5, "status": true},
+                {"item": 6, "status": true},
+                {"item": 7, "status": true},
+                {"item": 8, "status": true},
+                {"item": 9, "status": true},
+                {"item": 10, "status": true}
+            ]
+    },
+        {
+            "id": 4,
+            "name": "Fundação Casa das Artes",
+            "image": "/places/fundacao-casa-das-artes.png",
+            "category": "Teatro",
+            "description": "Criada em 1986 para promover o aprimoramento das manifestações artístico-culturais.",
+            "link": "http://cultura.bentogoncalves.rs.gov.br/?fbclid=IwAR19sSmeqgkz8maPu7UVUxm21wQ17NXoGhY2Ll2DHRBxeIVMu0xXA2kx38Y",
+            "location": {
+                "lat": "01234",
+                "long": "4321"
+            },
+            "facilities": [
+                {"item": 1, "status": false},
+                {"item": 2, "status": false},
+                {"item": 3, "status": true},
+                {"item": 4, "status": true},
+                {"item": 5, "status": true},
+                {"item": 6, "status": false},
+                {"item": 7, "status": true},
+                {"item": 8, "status": true},
+                {"item": 9, "status": true},
+                {"item": 10, "status": false}
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Miolo Wine Group",
+            "image": "/places/grupo-miolo.png",
+            "category": "Vinícula",
+            "description": "O Grupo Miolo reúne uma linha com mais de 100 produtos elaborados a partir de parcerias nacionais e internacionais.",
+            "link": "https://www.miolo.com.br/",
+            "location": {
+                "lat": "01234",
+                "long": "4321"
+            },
+            "facilities": [
+                {"item": 1, "status": false},
+                {"item": 2, "status": true},
+                {"item": 3, "status": true},
+                {"item": 4, "status": true},
+                {"item": 5, "status": true},
+                {"item": 6, "status": false},
+                {"item": 7, "status": true},
+                {"item": 8, "status": true},
+                {"item": 9, "status": true},
+                {"item": 10, "status": false}
+            ]
+        }
+    ]
+}

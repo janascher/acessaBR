@@ -1,0 +1,56 @@
+@import "../../styles/_responsive";
+
+.header {
+
+    &__container {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin: 4rem 0;
+        width: 100%;
+    }
+
+    &__logo {
+        align-items: flex-end;
+        display: flex;        
+
+        &--state {
+            img {
+                margin-right: 0.5rem;
+            }
+        }
+    }
+
+    &__city {
+        font-size: 1.8rem;
+        font-weight: 300;
+        line-height: 1.8rem;
+    }
+
+    &__span {
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.4rem;
+        margin-right: 1.2rem;
+    }
+
+        @media (max-width: $mobileLarge) {
+
+            &__logo {
+               flex-wrap: wrap; 
+
+               &--ebac {
+                   margin-left: 2rem;
+                   width: 90px;
+               }
+            }
+
+            &__city {
+                margin-top: 1rem;
+            }
+
+            &__span {
+                margin-bottom: .4rem;
+            }
+        }
+}
