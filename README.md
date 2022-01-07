@@ -125,6 +125,6 @@ O projeto me ajudou a iniciar meus estudos em React e Sass. Foi uma semana de ap
 
 ## 📝 Licença
 
-Este projeto esta sobe a licença [MIT](./LICENSE).
+Este projeto está sobre a licença [MIT](./LICENSE).
 
 Feito com ❤️ por Janaína Scher 👋 [Entre em contato!](https://www.linkedin.com/in/janainascher/)
